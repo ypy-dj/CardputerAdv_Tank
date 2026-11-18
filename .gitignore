@@ -1,0 +1,24 @@
+# 编译产物
+build/
+build_diag/
+build_scan/
+*.elf
+*.map
+*.bin
+
+# 临时文件
+*.log
+_robocopy*
+
+# 诊断工具（如需保留可删除此行）
+KeyDiag/
+KeyScan/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 封面生成脚本（可选保留）
+# make_cover.py
+# make_cover2.py
